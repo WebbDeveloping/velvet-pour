@@ -20,8 +20,8 @@ const SLIDES = [
     alt: "Cocktail being poured into a glass",
   },
   {
-    src: "https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=1200&q=80",
-    alt: "Assorted cocktails on a bar",
+    src: "https://images.unsplash.com/photo-1470337458703-46ad1756a187?auto=format&fit=crop&w=1200&q=80",
+    alt: "Colorful cocktails lined up on a bar",
   },
   {
     src: "https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=1200&q=80",
