@@ -16,9 +16,9 @@ const inter = Inter({
   display: "swap",
 });
 
-const siteTitle = "Velvet Pour | Luxury Mobile Bartending";
+const siteTitle = "Velvet Pour | Elevated Cocktail Service";
 const siteDescription =
-  "Premium mobile bartending for weddings, private events, and corporate gatherings across Salt Lake City and the Wasatch Front.";
+  "We bring the bar, the pours, and the polish — for weddings, private gatherings, and corporate celebrations across Salt Lake City and the Wasatch Front.";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://velvet-pour-neon.vercel.app"),
@@ -29,11 +29,11 @@ export const metadata: Metadata = {
   description: siteDescription,
   applicationName: "Velvet Pour",
   keywords: [
-    "mobile bartending",
-    "Salt Lake City bartender",
+    "cocktail service",
     "wedding bartender",
-    "corporate event bar",
-    "luxury cocktail service",
+    "event bar service",
+    "Salt Lake City bartender",
+    "corporate cocktail catering",
     "Wasatch Front",
   ],
   authors: [{ name: "Velvet Pour" }],
