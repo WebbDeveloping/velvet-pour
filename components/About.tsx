@@ -10,8 +10,8 @@ const ABOUT_IMAGE =
   "https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=1400&q=80";
 
 const COPY = [
-  "We know your event is more than just a party — it's an investment of your time, energy, and emotion. Velvet Pour makes sure you get the best return on that investment: exceptional drinks, polished service, and an atmosphere your guests will remember.",
-  "Our team crafts drink menus that match your event's theme — from timeless classics to signature creations. Whether it's a wedding, private celebration, or corporate gathering, we're here to impress your guests and leave a lasting impression.",
+  "Your celebration is a real investment — of time, energy, and the people you care about. Velvet Pour is built to honor that: thoughtful drink menus, refined service, and a bar experience guests remember long after the night ends.",
+  "We shape cocktail lists around your theme, whether that means timeless classics or a signature pour made just for you. From weddings to private parties and corporate gatherings, our goal is simple — drinks that feel special and service that never misses a beat.",
 ] as const;
 
 export default function About() {
@@ -58,10 +58,9 @@ export default function About() {
               mb: 0.5,
             }}
           >
-            Crafting elevated pours across Salt Lake —
+            Elevated pours across Salt Lake —
           </Box>
-          making every moment unforgettable with a perfect blend of quality and
-          care.
+          turning every toast into a moment guests still talk about.
         </Typography>
 
         <Box

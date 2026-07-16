@@ -11,6 +11,18 @@ body {
   min-height: 100%;
 }
 
+html {
+  scroll-behavior: smooth;
+  /* Offset for sticky nav so section titles aren't hidden under it */
+  scroll-padding-top: 5.5rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
 body {
   background-color: #0d0c0c;
   color: #f3ebdd;

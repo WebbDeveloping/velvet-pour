@@ -11,12 +11,12 @@ import { brandColors } from "@/app/theme";
 import { Menu, X } from "@/lib/icons";
 
 const NAV_LINKS = [
-  { label: "Services", href: "#" },
-  { label: "Packages", href: "#" },
-  { label: "Gallery", href: "#" },
-  { label: "Process", href: "#" },
-  { label: "FAQ", href: "#" },
-  { label: "Contact", href: "#" },
+  { label: "Services", href: "#our-benefits" },
+  { label: "Packages", href: "#packages" },
+  { label: "Gallery", href: "#reviews" },
+  { label: "Process", href: "#how-it-works" },
+  { label: "FAQ", href: "#faq" },
+  { label: "Contact", href: "#contact" },
 ] as const;
 
 const linkSx = {
@@ -156,8 +156,22 @@ export default function SiteNav() {
           paper: {
             sx: {
               width: "min(100%, 320px)",
-              backgroundColor: brandColors.background,
-              borderLeft: `1px solid rgba(198, 161, 91, 0.2)`,
+              color: brandColors.ivory,
+              borderLeft: `1px solid rgba(198, 161, 91, 0.28)`,
+              backgroundColor: brandColors.velvet,
+              backgroundImage: `
+                radial-gradient(
+                  ellipse 90% 55% at 100% 0%,
+                  rgba(198, 161, 91, 0.14) 0%,
+                  transparent 55%
+                ),
+                linear-gradient(
+                  165deg,
+                  ${brandColors.velvet} 0%,
+                  #3a1829 48%,
+                  ${brandColors.burgundy} 100%
+                )
+              `,
               px: 3,
               py: 3,
             },
@@ -187,6 +201,10 @@ export default function SiteNav() {
               sx={{
                 color: brandColors.ivory,
                 borderRadius: "2px",
+                border: `1px solid rgba(198, 161, 91, 0.35)`,
+                "&:hover": {
+                  backgroundColor: "rgba(198, 161, 91, 0.1)",
+                },
               }}
             >
               <X size={20} strokeWidth={1.5} />
@@ -204,6 +222,10 @@ export default function SiteNav() {
                   ...linkSx,
                   fontSize: "0.9375rem",
                   py: 0.5,
+                  color: "rgba(243, 235, 221, 0.88)",
+                  "&:hover": {
+                    color: brandColors.gold,
+                  },
                 }}
               >
                 {link.label}
@@ -220,8 +242,10 @@ export default function SiteNav() {
             sx={{
               mt: "auto",
               borderColor: brandColors.gold,
+              backgroundColor: "rgba(13, 12, 12, 0.35)",
               "&:hover": {
                 borderColor: brandColors.gold,
+                backgroundColor: "rgba(13, 12, 12, 0.5)",
               },
             }}
           >
